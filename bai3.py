@@ -3,7 +3,7 @@
 
 num_classrooms = int(input("Số lượng phòng học cần kiểm tra: "))
     
-for l in range(num_classrooms + 1):
+for l in range(num_classrooms):
 # bẫy 1 
  if num_classrooms <= 0:
         print("Số lượng phòng học không hợp lệ")
@@ -30,6 +30,12 @@ for l in range(num_classrooms + 1):
                 print("* " * seats_per_row)
             
             print() 
+            break
+
+    
+
+
+
 
 
 # Đề xuất giải pháp
